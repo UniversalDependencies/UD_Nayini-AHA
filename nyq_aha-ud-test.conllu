@@ -62,7 +62,7 @@
 3	رویی	رو	ADV	N_Sing	Number=Sing	7	advmod	_	_
 4	دِه	دِه	NUM	NUM	NumType=Card	5	nummod	_	_
 5	ساعت	ساعت	NOUN	N_Sing	Number=Sing	3	nmod:poss	_	_
-6	کاری	کار	NOUN	N_Sing	Number=Sing	7	compound:lvc	_	_
+6	کاری	کار	NOUN	N_Sing	Number=Sing	7	compound:svc	_	_
 7	کِرو	کِر	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	1	ccomp	_	SpaceAfter=No
 8	.	.	PUNCT	DELM	_	7	punct	_	_
 
@@ -76,7 +76,7 @@
 6	شون	ش	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	2	ccomp	_	_
 7	پا	پا	NOUN	N_Sing	Number=Sing	11	nsubj	_	_
 8	م	م	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
-9	گیر	گیر	NOUN	N_Sing	Number=Sing	11	compound:lvc	_	SpaceAfter=No
+9	گیر	گیر	NOUN	N_Sing	Number=Sing	11	compound:svc	_	SpaceAfter=No
 10	ُش	او	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	بِکَ	کَر	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	6	ccomp	_	_
 12	و	و	CCONJ	CON	_	13	cc	_	_
