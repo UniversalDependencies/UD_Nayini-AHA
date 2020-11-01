@@ -69,7 +69,7 @@
 # sent_id = IN-8
 # text = وقتی‌ مِگا اِز پله‌ها تیگ شون، پام گیرُش بِکَ و دِکفتُن.
 1	وقتی	وقتی	SCONJ	CON	_	6	mark	_	_
-2	مگا	گ	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+2	مِگا	گ	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
 3	اِز	اِز	ADP	P	_	4	case	_	_
 4	پله‌ها	پله	NOUN	N_Sing	Number=Sing	6	obl	_	_
 5	تیگ	تیگ	ADV	ADV_LOC	Case=Loc	6	advcl	_	_
@@ -98,7 +98,7 @@
 
 # sent_id = IN-10
 # text = چِن تا یوز دیمی بنه وا؟
-1	چن	چن	ADJ	ADJ	Degree=Pos	3	amod	_	_
+1	چِن	چِن	ADJ	ADJ	Degree=Pos	3	amod	_	_
 2	تا	تا	NOUN	N_Sing	Number=Sing	1	compound	_	_
 3	یوز	یوز	NOUN	N_Sing	Number=Sing	6	nsubj	_	_
 4	دیمی	دیم	ADP	P	_	5	case	_	_
