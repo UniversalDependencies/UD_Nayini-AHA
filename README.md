@@ -1,21 +1,26 @@
 # Summary
 
-The AHA Nayini Treebank is a small treebank for Today Nayini. Its corpus is collected and annotated manually.
-We have prepared this bank tree based on interviews with Nayini speakers.
+The AHA Nayini Treebank is a small treebank for contemporary Nayini. Its corpus is collected and annotated manually. We have prepared this treebank based on interviews with Nayini speakers.
 
 
 # Introduction
 
-...
+Nayini treebank consist of 10 sentences of this stage. We are trying to make this corpus bigger day by day.
+AHA is a small group, tries to analyze Iranian language and find their similarities and differences.
 
 
 # Acknowledgments
 
-...
+Theses sentences were prepared with the help of Hoyod people. On behalf of the AHA group, Hoyod people is thanked.
+
+First, we used the sentences suggested by APLL (Academy of Persian Language and Literature) to collect Iranian languages.
+
+This project is a research project by AmirHossein, Hamid and Amir (AHA).
+
 
 ## References
 
-* (citation)
+* Mojiri Foroushani, AmirHossein; Aghaei, Hamid; Ahmadi, Amir (2020): "AHA Nayini dependency treebank", Universal dependencies (universaldependencies.org)
 
 
 # Changelog
@@ -36,7 +41,7 @@ XPOS: manual native
 Features: manual native
 Relations: manual native
 Contributors: Mojiri Foroushani, AmirHossein; Aghaei, Hamid; Ahmadi, Amir
-Contributing: elsewhere
+Contributing: here
 Contact: amojiry@gmail.com
 ===============================================================================
 </pre>
