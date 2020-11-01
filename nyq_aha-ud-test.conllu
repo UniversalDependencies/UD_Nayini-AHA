@@ -1,6 +1,7 @@
 # sent_id = GRAMMAR_Hoyodi_1
 # text = عبدولو فردا صحبی شو.
 # text_fa = عبدالله فردا صبح می‌رود.
+# text_en = Abdollah is living tomorrow.
 1	عبدولو	عبدولو	NOUN	N_SING	Number=Sing	4	nsubj	_	_
 2	فردا	فردا	ADV	ADV	_	4	advmod	_	_
 3	صحبی	صحب	NOUN	N_SING	Number=Sing	2	nmod	_	_
@@ -10,6 +11,7 @@
 # sent_id = GRAMMAR_Hoyodi_2
 # text = مو دارُن لباسُم واپوشن.
 # text_fa = من دارم لباسم را می‌پوشم.
+# text_en = I am getting dressed.
 1	مو	مو	PRON	PRO	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	دارُن	دار	AUX	V_AUX	Number=Sing|Person=1|Tense=Fut	5	aux	_	_
 3	لباس	لباس	NOUN	N_Sing	Number=Sing	5	obj	_	SpaceAfter=No
@@ -20,6 +22,7 @@
 # sent_id = GRAMMAR_Hoyodi_3
 # text = یک لیویی اُو د مو ته.
 # text_fa = یک لیوان آب به من بده.
+# text_en = Give me a glass of water.
 1	یک	یک	NUM	NUM	NumType=Card	2	nummod	_	_
 2	لیویی	لیوُ	NOUN	N_Sing	Number=Sing	6	obj	_	_
 3	اُو	اُو	NOUN	N_Sing	Number=Sing	2	flat	_	_
@@ -31,6 +34,7 @@
 # sent_id = GRAMMAR_Hoyodi_4
 # text = بِرا م د مدرسه نِشو.
 # text_fa = برادرم به مدرسه نمی‌رود.
+# text_en = My brother does not go to school.
 1	بِرا	بِرا	NOUN	N_Sing	Number=Sing	5	nsubj	_	_
 2	م	مو	PRON	PRO	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
 3	د	د	ADP	P	_	5	case	_	_
@@ -41,6 +45,7 @@
 # sent_id = GRAMMAR_Hoyodi_5
 # text = تا ذِنُ دِه بار دِ مشهد بشتِیون.
 # text_fa = تا حالا ده بار به مشهد رفته‌ام.
+ text_en = I've travelled to Mashhad ten times.
 1	تا	تا	ADP	P	_	2	case	_	_
 2	ذِنُ	ذِنُ	ADV	ADV_TIME	Case=Tem	7	advcl	_	_
 3	دِه	دِه	NUM	NUM	NumType=Card	4	nummod	_	_
@@ -53,6 +58,7 @@
 # sent_id = GRAMMAR_Hoyodi_6
 # text = هِزِ یک کیلو برنج ُم هاگیفت.
 # text_fa = دیروز یک کیلو برنج گرفتم.
+# text_en = I bought one kilo of rice yesterday.
 1	هِزِ	هزِ	ADV	ADV_TIME	Case=Tem	6	advmod	_	_
 2	یک	یک	NUM	NUM	NumType=Card	3	nummod	_	_
 3	کیلو	کیلو	NOUN	N_Sing	Number=Sing	4	nmod:poss	_	_
@@ -64,6 +70,7 @@
 # sent_id = GRAMMAR_Hoyodi_7
 # text = واجِن علی رویی دِه ساعت کاری کِرو.
 # text_fa = می‌گویند علی روزی ده ساعت کار می‌کند.
+# text_en = It is said that Ali works ten hours a day.
 1	واجِن	واج	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	0	root	_	_
 2	علی	علی	NOUN	N_Sing	Number=Sing	4	nsubj	_	_
 3	رویی	رو	ADV	N_Sing	Number=Sing	7	advmod	_	_
@@ -75,7 +82,8 @@
 
 # sent_id = GRAMMAR_Hoyodi_8
 # text = وقتی مِگا اِز پله‌ها تیگ شون پا م گیر ُش بِکَ و دِکفتُن.
-# text_fa = وقتی میخواستم از پله ها پایین بروم پایم گیر کرد و افتادم.
+# text_fa = وقتی می‌خواستم از پله‌ها پایین بروم پایم گیر کرد و افتادم.
+# text_en = When I wanted to go down the stairs, my foot got stock and I fell.
 1	وقتی	وقتی	SCONJ	CON	_	6	mark	_	_
 2	مِگا	گ	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
 3	اِز	اِز	ADP	P	_	4	case	_	_
@@ -94,6 +102,7 @@
 # sent_id = GRAMMAR_Hoyodi_9
 # text = اِز دِه سالی پیش تا ذِنُ او م بینِدییه.
 # text_fa = از ده سال پیش تا الان او را ندیده‌ام.
+# text_en = I haven't seen him for ten years.
 1	اِز	اِز	ADP	P	_	2	case	_	_
 2	دِه	دِه	NUM	NUM	NumType=Card	9	nummod	_	_
 3	سالی	سال	NOUN	N_Sing	Number=Sing	9	obl	_	_
@@ -108,6 +117,7 @@
 # sent_id = GRAMMAR_Hoyodi_10
 # text = چِن تا یوز دیمی بنه وا؟
 # text_fa = چند تا گردو روی درخت است؟
+# text_en = How many walnuts are on the tree?
 1	چِن	چِن	ADJ	ADJ	Degree=Pos	3	amod	_	_
 2	تا	تا	NOUN	N_Sing	Number=Sing	1	compound	_	_
 3	یوز	یوز	NOUN	N_Sing	Number=Sing	6	nsubj	_	_
