@@ -45,7 +45,7 @@
 # sent_id = GRAMMAR_Hoyodi_5
 # text = تا ذِنُ دِه بار دِ مشهد بشتِیون.
 # text_fa = تا حالا ده بار به مشهد رفته‌ام.
- text_en = I've travelled to Mashhad ten times.
+# text_en = I've travelled to Mashhad ten times.
 1	تا	تا	ADP	P	_	2	case	_	_
 2	ذِنُ	ذِنُ	ADV	ADV_TIME	Case=Tem	7	advcl	_	_
 3	دِه	دِه	NUM	NUM	NumType=Card	4	nummod	_	_
