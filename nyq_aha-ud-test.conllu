@@ -1,5 +1,6 @@
 # sent_id = IN-1
 # text = عبدولو فردا صحبی شو.
+# text_fa = عبدالله فردا صبح می‌رود.
 1	عبدولو	عبدولو	NOUN	N_SING	Number=Sing	4	nsubj	_	_
 2	فردا	فردا	ADV	ADV	_	4	advmod	_	_
 3	صحبی	صحب	NOUN	N_SING	Number=Sing	2	nmod	_	_
@@ -8,6 +9,7 @@
 
 # sent_id = IN-2
 # text = مو دارُن لباسُم واپوشن.
+# text_fa = من دارم لباسم را می‌پوشم.
 1	مو	مو	PRON	PRO	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	دارُن	دار	AUX	V_AUX	Number=Sing|Person=1|Tense=Fut	5	aux	_	_
 3	لباس	لباس	NOUN	N_Sing	Number=Sing	5	obj	_	SpaceAfter=No
@@ -17,6 +19,7 @@
 
 # sent_id = IN-3
 # text = یک لیویی اُو د مو ته.
+# text_fa = یک لیوان آب به من بده.
 1	یک	یک	NUM	NUM	NumType=Card	2	nummod	_	_
 2	لیویی	لیوُ	NOUN	N_Sing	Number=Sing	6	obj	_	_
 3	اُو	اُو	NOUN	N_Sing	Number=Sing	2	flat	_	_
@@ -26,8 +29,9 @@
 7	.	.	PUNCT	DELM	_	6	punct	_	_
 
 # sent_id = IN-4
-# text = بِرام د مدرسه نِشو.
-1	بِرا	بِرا	NOUN	N_Sing	Number=Sing	5	nsubj	_	SpaceAfter=No
+# text = بِرا م د مدرسه نِشو.
+# text_fa = برادرم به مدرسه نمیرود.
+1	بِرا	بِرا	NOUN	N_Sing	Number=Sing	5	nsubj	_	_
 2	م	م	PRON	PRO	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
 3	د	د	ADP	P	_	5	case	_	_
 4	مدرسه	مدرسه	NOUN	N_Sing	Number=Sing	5	obl	_	_
@@ -36,6 +40,7 @@
 
 # sent_id = IN-5
 # text = تا ذِنُ دِه بار دِ مشهد بشتِیون.
+# text_fa = تا حالا به مشهد رفته‌ام.
 1	تا	تا	ADP	P	_	2	case	_	_
 2	ذِنُ	ذِنُ	ADV	ADV_TIME	Case=Tem	7	advcl	_	_
 3	دِه	دِه	NUM	NUM	NumType=Card	4	nummod	_	_
@@ -46,17 +51,19 @@
 8	.	.	PUNCT	DELM	_	7	punct	_	_
 
 # sent_id = IN-6
-# text = هِزِ یک کیلو برنجُم هاگیفت.
+# text = هِزِ یک کیلو برنج ُم هاگیفت.
+# text_fa = دیروز یک کیلو برنج گرفتم.
 1	هِزِ	هزِ	ADV	ADV_TIME	Case=Tem	6	advmod	_	_
 2	یک	یک	NUM	NUM	NumType=Card	3	nummod	_	_
 3	کیلو	کیلو	NOUN	N_Sing	Number=Sing	4	nmod:poss	_	_
-4	برنج	برنج	NOUN	N_Sing	Number=Sing	6	obj	_	SpaceAfter=No
+4	برنج	برنج	NOUN	N_Sing	Number=Sing	6	obj	_	_
 5	ُم	مو	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	هاگیفت	هاگیر	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	DELM	_	6	punct	_	_
 
 # sent_id = IN-7
 # text = واجِن علی رویی دِه ساعت کاری کِرو.
+# text_fa = می‌گویند علی روزی ده ساعت کار می‌کند.
 1	واجِن	واج	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	0	root	_	_
 2	علی	علی	NOUN	N_Sing	Number=Sing	4	nsubj	_	_
 3	رویی	رو	ADV	N_Sing	Number=Sing	7	advmod	_	_
@@ -67,7 +74,8 @@
 8	.	.	PUNCT	DELM	_	7	punct	_	_
 
 # sent_id = IN-8
-# text = وقتی مِگا اِز پله‌ها تیگ شون پا م گیرُش بِکَ و دِکفتُن.
+# text = وقتی مِگا اِز پله‌ها تیگ شون پا م گیر ُش بِکَ و دِکفتُن.
+# text_fa = وقتی میخواستم از پله ها پایین بروم پایم گیر کرد و افتادم.
 1	وقتی	وقتی	SCONJ	CON	_	6	mark	_	_
 2	مِگا	گ	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
 3	اِز	اِز	ADP	P	_	4	case	_	_
@@ -76,7 +84,7 @@
 6	شون	ش	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	2	ccomp	_	_
 7	پا	پا	NOUN	N_Sing	Number=Sing	11	nsubj	_	_
 8	م	م	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
-9	گیر	گیر	NOUN	N_Sing	Number=Sing	11	compound:lvc	_	SpaceAfter=No
+9	گیر	گیر	NOUN	N_Sing	Number=Sing	11	compound:lvc	_	_
 10	ُش	او	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	بِکَ	کَر	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	6	ccomp	_	_
 12	و	و	CCONJ	CON	_	13	cc	_	_
@@ -84,20 +92,22 @@
 14	.	.	PUNCT	DELM	_	13	punct	_	_
 
 # sent_id = IN-9
-# text = اِز دِه سالی پیش تا ذِنُ اوم بینِدییه.
+# text = اِز دِه سالی پیش تا ذِنُ او م بینِدییه.
+# text_fa = از ده سال پیش تا الان او را ندیده‌ام.
 1	اِز	اِز	ADP	P	_	2	case	_	_
 2	دِه	دِه	NUM	NUM	NumType=Card	9	nummod	_	_
 3	سالی	سال	NOUN	N_Sing	Number=Sing	9	obl	_	_
 4	پیش	پیش	NOUN	N_Sing	Number=Sing	3	nmod:poss	_	_
 5	تا	تا	ADP	P	_	6	case	_	_
 6	ذِنُ	ذِنُ	ADV	ADV_TIME	Case=Tem	9	advcl	_	_
-7	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+7	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 8	م	مو	PRON	PRO	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	بینِدییه	بین	VERB	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	DELM	_	9	punct	_	_
 
 # sent_id = IN-10
 # text = چِن تا یوز دیمی بنه وا؟
+# text_fa = چند تا گردو روی درخت است؟
 1	چِن	چِن	ADJ	ADJ	Degree=Pos	3	amod	_	_
 2	تا	تا	NOUN	N_Sing	Number=Sing	1	compound	_	_
 3	یوز	یوز	NOUN	N_Sing	Number=Sing	6	nsubj	_	_
