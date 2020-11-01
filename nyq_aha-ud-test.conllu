@@ -67,7 +67,7 @@
 8	.	.	PUNCT	DELM	_	7	punct	_	_
 
 # sent_id = IN-8
-# text = وقتی‌ مِگا اِز پله‌ها تیگ شون، پام گیرُش بِکَ و دِکفتُن.
+# text = وقتی مِگا اِز پله‌ها تیگ شون، پام گیرُش بِکَ و دِکفتُن.
 1	وقتی	وقتی	SCONJ	CON	_	6	mark	_	_
 2	مِگا	گ	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
 3	اِز	اِز	ADP	P	_	4	case	_	_
