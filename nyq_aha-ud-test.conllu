@@ -67,14 +67,14 @@
 8	.	.	PUNCT	DELM	_	7	punct	_	_
 
 # sent_id = IN-8
-# text = وقتی مِگا اِز پله‌ها تیگ شون، پام گیرُش بِکَ و دِکفتُن.
+# text = وقتی مِگا اِز پله‌ها تیگ شون، پا م گیرُش بِکَ و دِکفتُن.
 1	وقتی	وقتی	SCONJ	CON	_	6	mark	_	_
 2	مِگا	گ	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
 3	اِز	اِز	ADP	P	_	4	case	_	_
 4	پله‌ها	پله	NOUN	N_Sing	Number=Sing	6	obl	_	_
 5	تیگ	تیگ	ADV	ADV_LOC	Case=Loc	6	advcl	_	_
 6	شون	ش	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	2	ccomp	_	SpaceAfter=No
-7	پا	پا	NOUN	N_Sing	Number=Sing	11	nsubj	_	SpaceAfter=No
+7	پا	پا	NOUN	N_Sing	Number=Sing	11	nsubj	_	_
 8	م	م	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
 9	گیر	گیر	NOUN	N_Sing	Number=Sing	11	compound:lvc	_	SpaceAfter=No
 10	ُش	او	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
@@ -105,4 +105,3 @@
 5	بنه	بنه	NOUN	N_Sing	Number=Sing	6	nmod	_	_
 6	وا	او	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 7	؟	؟	PUNCT	DELM	_	6	punct	_	_
-
