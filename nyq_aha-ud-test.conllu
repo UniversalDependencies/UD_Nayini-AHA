@@ -27,70 +27,70 @@
 
 # sent_id = IN-4
 # text = بِرام د مدرسه نِشو.
-1	برا	برا	NOUN	N_Sing	Number=Sing	5	nsubj	_	_
+1	بِرا	بِرا	NOUN	N_Sing	Number=Sing	5	nsubj	_	SpaceAfter=No
 2	م	م	PRON	PRO	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
 3	د	د	ADP	P	_	5	case	_	_
-4	مدرسه	مدرسه	NOUN	N_ Sing	Number= Sing	6	obl	_	_
+4	مدرسه	مدرسه	NOUN	N_Sing	Number=Sing	5	obl	_	_
 5	نشو	ش	VERB	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	DELM	_	5	punct	_	_
 
 # sent_id = IN-5
 # text = تا ذِنُ دِه بار دِ مشهد بشتِیون.
 1	تا	تا	ADP	P	_	2	case	_	_
-2	ذنُ	ذنُ	ADV	ADV_TIME	Case=Tem	6	advcl	_	_
-2	دِه	دِه	NUM	NUM	NumType=Card	3	nummod	_	_
-3	بار	بار	NOUN	N_Sing	Number=Sing	6	obl	_	_
-4	د	د	ADP	P	_	5	case	_	_
-5	مشهد	مشهد	NOUN	N_Sing	Number=Sing	6	obl	_	_
-6	بشتیون	ش	VERB	V_PP	Number=Sing|Person=1|VerbForm=Part	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	DELM	_	6	punct	_	_
+2	ذنُ	ذنُ	ADV	ADV_TIME	Case=Tem	7	advcl	_	_
+3	دِه	دِه	NUM	NUM	NumType=Card	4	nummod	_	_
+4	بار	بار	NOUN	N_Sing	Number=Sing	7	obl	_	_
+5	د	د	ADP	P	_	6	case	_	_
+6	مشهد	مشهد	NOUN	N_Sing	Number=Sing	7	obl	_	_
+7	بشتیون	ش	VERB	V_PP	Number=Sing|Person=1|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	DELM	_	7	punct	_	_
 
 # sent_id = IN-6
 # text = هِزِ یک کیلو برنجُم هاگیفت.
 1	هِزِ	هزِ	ADV	ADV_TIME	Case=Tem	6	advmod	_	_
 2	یک	یک	NUM	NUM	NumType=Card	3	nummod	_	_
 3	کیلو	کیلو	NOUN	N_Sing	Number=Sing	4	nmod:poss	_	_
-4	برنج	برنج	NOUN	N_Sing	Number=Sing	6	obj	_	_
-5	م	مو	PRO	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-6	هاگیفت	هاگیر	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
-7	  .	 .	PUNCT	DELM	_	6	punct	_	_
+4	برنج	برنج	NOUN	N_Sing	Number=Sing	6	obj	_	SpaceAfter=No
+5	ُم	مو	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	هاگیفت	هاگیر	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	DELM	_	6	punct	_	_
 
 # sent_id = IN-7
 # text = واجِن علی رویی دِه ساعت کاری کِرو.
-1	واجن	واج	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	0	root	_	_
+1	واجِن	واج	VERB	V_PP	Number=Plur|Person=3|VerbForm=Part	0	root	_	_
 2	علی	علی	NOUN	N_Sing	Number=Sing	4	nsubj	_	_
 3	رویی	رو	NOUN	N_Sing	Number=Sing	7	advmod	_	_
 4	ده	دِه	NUM	NUM	NumType=Card	5	nummod	_	_
 5	ساعت	ساعت	NOUN	N_Sing	Number=Sing	3	nmod:poss	_	_
 6	کاری	کار	NOUN	N_Sing	Number=Sing	7	compound:lvc	_	_
-7	کِرو	کِر	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+7	کِرو	کِر	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	1	ccomp	_	SpaceAfter=No
 8	.	.	PUNCT	DELM	_	7	punct	_	_
 
 # sent_id = IN-8
 # text = وقتی‌ مِگا از پله‌ها تیگ شون، پام گیرُش بِکَ و دِکفتُن.
 1	وقتی	وقتی	SCONJ	CON	_	6	mark	_	_
 2	مگا	گ	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
-3	اِز	از	ADP	P	_	4	case	_	_ 
+3	اِز	از	ADP	P	_	4	case	_	_
 4	پله‌ها	پله	NOUN	N_Sing	Number=Sing	6	obl	_	_
-5	تیگ	تیگ	ADV	ADV_LOC	Case=Loc	6	advcl	_	_ 
+5	تیگ	تیگ	ADV	ADV_LOC	Case=Loc	6	advcl	_	_
 6	شون	ش	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	2	ccomp	_	_
 7	پا	پا	NOUN	N_Sing	Number=Sing	11	nsubj	_	_
 8	م	م	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
 9	گیر	گیر	NOUN	N_Sing	Number=Sing	11	compound:lvc	_	_
-10	ش	او	PRO	_	Number= Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	ش	او	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	بِکَ	کَر	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	6	ccomp	_	_
 12	و	و	CCONJ	CON	_	13	cc	_	_
-13	دکفتون	دک	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+13	دکفتون	دک	VERB	V_PA	Number=Sing|Person=1|Tense=Past	11	ccomp	_	SpaceAfter=No
 14	.	.	PUNCT	DELM	_	13	punct	_	_
 
 # sent_id = IN-9
 # text = اِز دِه سالی پیش تا ذِنُ اوم بینِدییه.
 1	اِز	اِز	ADP	P	_	2	case	_	_
-2	ده	ده	NUM	NUM	NumType=Card	5	nummod	_	_
+2	دِه	دِه	NUM	NUM	NumType=Card	5	nummod	_	_
 3	سال	سالی	NOUN	N_Sing	Number=Sing	9	obl	_	_
 4	پیش	پیش	NOUN	N_Sing	Number=Sing	3	nmod:poss	_	_
-5	تا	تا	ADP	P	_	6	case	_	_ 
-6	ذنُ	ذنُ	ADV	ADV_TIME	Case=Tem	6	advcl	_	_
+5	تا	تا	ADP	P	_	6	case	_	_
+6	ذنُ	ذنُ	ADV	ADV_TIME	Case=Tem	9	advcl	_	_
 7	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 8	م	مو	PRON	PRO	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	بیندیه	بین	VERB	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
