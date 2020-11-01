@@ -40,9 +40,9 @@
 2	ذِنُ	ذِنُ	ADV	ADV_TIME	Case=Tem	7	advcl	_	_
 3	دِه	دِه	NUM	NUM	NumType=Card	4	nummod	_	_
 4	بار	بار	NOUN	N_Sing	Number=Sing	7	obl	_	_
-5	د	د	ADP	P	_	6	case	_	_
+5	دِ	دِ	ADP	P	_	6	case	_	_
 6	مشهد	مشهد	NOUN	N_Sing	Number=Sing	7	obl	_	_
-7	بشتیون	ش	VERB	V_PP	Number=Sing|Person=1|VerbForm=Part	0	root	_	SpaceAfter=No
+7	بشتِیون	ش	VERB	V_PP	Number=Sing|Person=1|VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	DELM	_	7	punct	_	_
 
 # sent_id = IN-6
@@ -74,10 +74,10 @@
 4	پله‌ها	پله	NOUN	N_Sing	Number=Sing	6	obl	_	_
 5	تیگ	تیگ	ADV	ADV_LOC	Case=Loc	6	advcl	_	_
 6	شون	ش	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	2	ccomp	_	SpaceAfter=No
-7	پا	پا	NOUN	N_Sing	Number=Sing	11	nsubj	_	_
+7	پا	پا	NOUN	N_Sing	Number=Sing	11	nsubj	_	SpaceAfter=No
 8	م	م	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
-9	گیر	گیر	NOUN	N_Sing	Number=Sing	11	compound:lvc	_	_
-10	ش	او	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	گیر	گیر	NOUN	N_Sing	Number=Sing	11	compound:lvc	_	SpaceAfter=No
+10	ُش	او	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	بِکَ	کَر	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	6	ccomp	_	_
 12	و	و	CCONJ	CON	_	13	cc	_	_
 13	دِکفتُن	دک	VERB	V_PA	Number=Sing|Person=1|Tense=Past	11	ccomp	_	SpaceAfter=No
@@ -90,7 +90,7 @@
 3	سالی	سال	NOUN	N_Sing	Number=Sing	9	obl	_	_
 4	پیش	پیش	NOUN	N_Sing	Number=Sing	3	nmod:poss	_	_
 5	تا	تا	ADP	P	_	6	case	_	_
-6	ذنُ	ذنُ	ADV	ADV_TIME	Case=Tem	9	advcl	_	_
+6	ذِنُ	ذِنُ	ADV	ADV_TIME	Case=Tem	9	advcl	_	_
 7	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 8	م	مو	PRON	PRO	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	بینِدییه	بین	VERB	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
