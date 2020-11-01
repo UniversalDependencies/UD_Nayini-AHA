@@ -12,9 +12,7 @@ AHA is a small group, tries to analyze Iranian language and find their similarit
 # Acknowledgments
 
 Theses sentences were prepared with the help of Hoyod people. On behalf of the AHA group, Hoyod people is thanked.
-
 First, we used the sentences suggested by APLL (Academy of Persian Language and Literature) to collect Iranian languages.
-
 This project is a research project by AmirHossein, Hamid and Amir (AHA).
 
 
