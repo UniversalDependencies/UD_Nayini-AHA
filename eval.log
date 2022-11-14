@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Nayini-AHA:
-commit bec4830a044922fe90b1ff6652e3b546dfb4ae14
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 16:45:40 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Nayini-AHA:
+commit f32d0c88973b70acfea4501d45b448baaf612c0e
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 14:59:15 2022 +0200
 Size: counted 78 of 78 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,11 @@ Udapi: found 13 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 78 words.
 Genres: found 2 out of 17 known.
 validate.py --lang nyq --max-err=10 UD_Nayini-AHA/nyq_aha-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 97 Sent GRAMMAR_Hoyodi_8 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 1
+*** FAILED *** with 1 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
@@ -35,6 +38,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.647058823529412) = 0.0497737556561086
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.459459459459459) = 0.0353430353430353
-(TOTAL score=0.251602462190697) * (availability=1) * (validity=1) = 0.251602462190697
-STARS = 1.5
-UD_Nayini-AHA	0.251602462190697	1.5
+(TOTAL score=0.251602462190697) * (availability=1) * (validity=0.01) = 0.00251602462190698
+STARS = 0
+UD_Nayini-AHA	0.00251602462190698	0
