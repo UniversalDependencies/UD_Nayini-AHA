@@ -30,6 +30,7 @@ This project is a research project by AmirHossein, Hamid and Amir (AHA).
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples spoken
 Lemmas: manual native
 UPOS: manual native
